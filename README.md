@@ -1,7 +1,6 @@
 # datetime-fortran
 
-[![Build Status](https://travis-ci.org/wavebitscientific/datetime-fortran.svg?branch=master)](https://travis-ci.org/wavebitscientific/datetime-fortran)
-[![GitHub issues](https://img.shields.io/github/issues/wavebitscientific/datetime-fortran.svg)](https://github.com/wavebitscientific/datetime-fortran/issues)
+*Forked version of [wavebitscientific/datetime-fortran](https://github.com/wavebitscientific/datetime-fortran) that removes `strptime` functionality, as `c_strptime` is not available on Windows systems. Only use if you don't need strptime functionality.*
 
 Date and time manipulation for modern Fortran.
 
@@ -10,7 +9,7 @@ Date and time manipulation for modern Fortran.
 ### Building with cmake
 
 ```
-git clone https://github.com/wavebitscientific/datetime-fortran
+git clone https://github.com/samharrison7/datetime-fortran
 cd datetime-fortran
 mkdir build
 cd build
@@ -21,7 +20,7 @@ ctest
 
 ### Building with autotools
 
-Download and unpack a [release tarball](https://github.com/wavebitscientific/datetime-fortran/releases).
+Download and unpack a [release tarball](https://github.com/samharrison7/datetime-fortran/releases).
 In datetime-fortran source directory:
 
 ```
